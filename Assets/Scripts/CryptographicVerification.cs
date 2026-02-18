@@ -26,10 +26,12 @@ public class CryptographicVerification : MonoBehaviour
 
     IEnumerator VerifyIntegrity()
     {
+        string Normalize(string s) => s.Replace("\r\n", "\n").Trim();
         // Read local file directly (PC path, no APK gymnastics needed)
         string localPath = System.IO.Path.Combine(Application.streamingAssetsPath, localFileName);
         string localText = System.IO.File.ReadAllText(localPath);
-        string localHash = HashString(localText);
+        string localHash = HashString(Normalize(localText));
+
 
         // Fetch from GitHub
         using (UnityWebRequest req = UnityWebRequest.Get(githubRawURL))
@@ -43,7 +45,7 @@ public class CryptographicVerification : MonoBehaviour
                 yield break;
             }
 
-            string remoteHash = HashString(req.downloadHandler.text);
+            string remoteHash = HashString(Normalize(req.downloadHandler.text));
 
             if (localHash == remoteHash)
             {
