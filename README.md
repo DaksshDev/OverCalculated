@@ -8,7 +8,7 @@ Designed specifically for PC, it combines **clean visuals**, **focused gameplay*
 
 ## 🖥️ Home Screen
 
-![Home Screen](images/home_screen.png)  
+![Home Screen](images/home.png)  
 
 The main menu with cheatsheets so you never forget those tables!.
 
@@ -16,10 +16,10 @@ The main menu with cheatsheets so you never forget those tables!.
 
 ## 🔥 Gameplay Screenshots
 
-![Gameplay 1](images/gameplay1.png)  
+![Gameplay 1](images/game1.png)  
 Focus on solving problems as quickly and accurately as possible!  
 
-![Gameplay 2](images/gameplay2.png)  
+![Gameplay 2](images/game2.png)  
 Earn aura and xp with each answer!.  
 
 ---
