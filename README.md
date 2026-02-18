@@ -16,10 +16,10 @@ The main menu with cheatsheets so you never forget those tables!.
 
 ## 🔥 Gameplay Screenshots
 
-![Gameplay 1](images/game1.png)  
+![Gameplay 1](images/game2.png)  
 Focus on solving problems as quickly and accurately as possible!  
 
-![Gameplay 2](images/game2.png)  
+![Gameplay 2](images/game1.png)  
 Earn aura and xp with each answer!.  
 
 ---
