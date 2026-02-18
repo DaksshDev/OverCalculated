@@ -6,6 +6,6 @@ public class TMPLinkHandler : MonoBehaviour
 {
     public void OpenGithub()
     {
-        Application.OpenURL("https://github.com/DaksshDev/Wchat");
+        Application.OpenURL("https://github.com/DaksshDev/OverCalculated.git");
     }
 }
