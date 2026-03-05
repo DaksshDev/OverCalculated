@@ -3,7 +3,6 @@
 Overcalculated is a **fast-paced desktop math game** where logic meets speed.  
 Start practicing and sharpen your mental maths skills.
 Designed specifically for PC, it combines **clean visuals**, **focused gameplay**, and **mental maths based cards**.  
-[NOTICE: This project is no longer maintained]
 
 ---
 
